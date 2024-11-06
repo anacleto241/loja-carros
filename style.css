@@ -10,11 +10,12 @@ h1 {
 }
 
 .car-item {
+    text-align: left;
     background-color: #111;
-    color: #fff;
+    color: #b2b2b2;
     margin: 20px auto;
     padding: 20px;
-    width: 300px;
+    width: 500px;
     border-radius: 4px;
 }
 
@@ -22,9 +23,9 @@ h2 {
     color: #febe01;
 }
 
-.manual, .automatico {
-    color: #b2b2b2;
-}
+.highlight {
+    color: #febe01;
+  }
 
 button {
     background-color: #febe01;
@@ -38,4 +39,9 @@ button {
 
 button:hover {
     background-color: #e6b800;
+}
+
+.valor{
+    color: #fff;
+    font-weight: bold;
 }
